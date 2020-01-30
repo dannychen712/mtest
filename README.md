@@ -10,7 +10,7 @@ This is should highlight what I consider to be an appropriate organizational
 structure of a pytest test suite.
 
 I will probably need to update the "expected_data.json" after I submit because the new NBA all star reserves will be
-announced on 1/30/2020 at 5:00PM MT :).
+announced on 1/30/2020 at 5:00PM MT, but such is the life of QA Automation :).
 
 ## Structure
 
