@@ -2,6 +2,7 @@ import pytest
 import requests
 import json
 from page_objects.nba_dot_com import NBADotCom
+from page_objects.basketball_reference import BasketballReference
 
 
 @pytest.fixture
@@ -18,7 +19,8 @@ def browser(selenium):
     While a new fixture isn't really needed, I like to do it to enable the
     workflow to accept a firefox options or chrome options when desired.
     """
-    return selenium
+    yield selenium
+    selenium.close()
 
 
 @pytest.fixture
@@ -38,3 +40,11 @@ def nba_dot_com(browser):
     Makes page object for nba.com available as a fixture
     """
     return NBADotCom(browser)
+
+
+@pytest.fixture
+def basketball_reference(browser):
+    """
+    Makes page object for basketball-reference.com a fixture
+    """
+    return BasketballReference(browser)
