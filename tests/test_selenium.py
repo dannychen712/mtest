@@ -30,7 +30,7 @@ def test_nbadotcom(browser, nba_dot_com, expected_data):
     browser.get("https://www.nba.com/allstar/2020/roster#/")
     web_names = nba_dot_com.player_names()
 
-    assert (names_match(web_names, expected_data))
+    assert(names_match(web_names, expected_data))
 
 def test_bball_reference(browser, expected_data, basketball_reference):
     """
@@ -39,3 +39,5 @@ def test_bball_reference(browser, expected_data, basketball_reference):
     """
     browser.get("https://www.basketball-reference.com/allstar/NBA_2020.html")
     web_names = basketball_reference.player_names()
+
+    assert(names_match(web_names, expected_data))

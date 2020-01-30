@@ -20,8 +20,10 @@ class BasketballReference:
 
         # using list comprehension extract all text from the elements
         # also remove "player" text from table
+        names = [name.text for name in names_objects
+                 if not name.text == "Player"]
 
-        names = [name.text for name in names_objects if not name.text == "Player"]
+        # remove spaces
         cleaned_names = list(filter(None, names))
         return cleaned_names
 

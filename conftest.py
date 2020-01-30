@@ -3,6 +3,7 @@ import requests
 import json
 from page_objects.nba_dot_com import NBADotCom
 from page_objects.basketball_reference import BasketballReference
+from page_objects.nba_api import NBAApi
 
 
 @pytest.fixture
@@ -48,3 +49,10 @@ def basketball_reference(browser):
     Makes page object for basketball-reference.com a fixture
     """
     return BasketballReference(browser)
+
+@pytest.fixture
+def nba_api():
+    """
+    Creates fixture for the abstracted nba api.
+    """
+    return NBAApi()
