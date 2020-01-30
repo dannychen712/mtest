@@ -7,6 +7,7 @@ setup(
         "pytest",
         "requests",
         "selenium",
-        "pytest-selenium"
+        "pytest-selenium",
+        "pytest-html"
     ]
 )

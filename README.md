@@ -9,6 +9,9 @@ Those include:
 This is should highlight what I consider to be an appropriate organizational
 structure of a pytest test suite.
 
+Results are presented as html, you can view an example by opening example_report.html.
+Other pytest libraries exist for reporting including JSON and JUNITXML which can be consumed by services like Jenkins.
+
 I will probably need to update the "expected_data.json" after I submit because the new NBA all star reserves will be
 announced on 1/30/2020 at 5:00PM MT, but such is the life of QA Automation :).
 
@@ -65,7 +68,6 @@ Python 3.7.3, pip3
 
 ## Running the tests
 
-If running selenium tests:
-`pytest --driver chrome`
+`pytest --driver chrome --html=results.html`
 
 
