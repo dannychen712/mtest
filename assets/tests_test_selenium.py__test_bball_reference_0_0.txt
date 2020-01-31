@@ -1,0 +1,373 @@
+[1580499189.803][INFO]: Starting ChromeDriver 79.0.3945.79 (29f75ce3f42b007bd80361b0dfcfee3a13ff90b8-refs/branch-heads/3945@{#916})
+[1580499189.803][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1580499190.800][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1580499190.800][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1580499190.800][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1580499190.801][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension=/tmp/.org.chromium.Chromium.AqovgX/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.vTR1Ow data:,
+[1580499191.349][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1580499191.426][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "79.0.3945.130",
+      "chrome": {
+         "chromedriverVersion": "79.0.3945.79 (29f75ce3f42b007bd80361b0dfcfee3a13ff90b8-refs/branch-heads/3945@{#916})",
+         "userDataDir": "/tmp/.org.chromium.Chromium.vTR1Ow"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:46353"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "778d44e5c03ce782db7c4937c750021d"
+}
+[1580499191.431][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND Navigate {
+   "url": "https://www.basketball-reference.com/allstar/NBA_2020.html"
+}
+[1580499191.431][INFO]: Waiting for pending navigations...
+[1580499191.432][INFO]: Done waiting for pending navigations. Status: ok
+[1580499191.902][INFO]: Waiting for pending navigations...
+[1580499212.354][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.354][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE Navigate
+[1580499212.356][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND FindElements {
+   "using": "css selector",
+   "value": "[data-stat=player]"
+}
+[1580499212.356][INFO]: Waiting for pending navigations...
+[1580499212.405][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.549][INFO]: Waiting for pending navigations...
+[1580499212.598][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.598][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "0fcab1a1-5306-4b75-a053-90ecb7a432f2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4a9856a2-b715-445c-9e9c-4b3df9a42b21"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2a37cc70-ce34-4b2b-ad67-c7b183342fb1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "454c49f9-cdc2-4a7a-b5bb-342d9895ac7f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "88e49634-8f3e-4f8e-84b7-11703ae8789c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8fd4cec3-27ab-4638-85df-a40720f1a8b1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8dd949bd-1fc3-482d-bfe8-6963f367b459"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "aa1ad2fa-f6b1-46c6-a21d-7e9e14214e74"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5f9cebbe-fbea-41c1-b625-5ed9a777b887"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "28d70882-6781-40bf-a5b4-ee19180c82d7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ee4af295-2e95-45f9-a934-0a001a3b4e99"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1d2b4aa3-f9f9-495a-9da0-237ce1a0952b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9bdd0090-a785-439e-ba09-feda0b26a77b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4d07205f-9a7c-4f51-a52c-ff66e6a94b60"
+} ]
+[1580499212.601][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "0fcab1a1-5306-4b75-a053-90ecb7a432f2"
+}
+[1580499212.601][INFO]: Waiting for pending navigations...
+[1580499212.611][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.640][INFO]: Waiting for pending navigations...
+[1580499212.645][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.645][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Player"
+[1580499212.647][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "4a9856a2-b715-445c-9e9c-4b3df9a42b21"
+}
+[1580499212.647][INFO]: Waiting for pending navigations...
+[1580499212.660][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.688][INFO]: Waiting for pending navigations...
+[1580499212.689][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.689][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Giannis Antetokounmpo"
+[1580499212.691][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "4a9856a2-b715-445c-9e9c-4b3df9a42b21"
+}
+[1580499212.691][INFO]: Waiting for pending navigations...
+[1580499212.706][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.725][INFO]: Waiting for pending navigations...
+[1580499212.726][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.726][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Giannis Antetokounmpo"
+[1580499212.728][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "2a37cc70-ce34-4b2b-ad67-c7b183342fb1"
+}
+[1580499212.728][INFO]: Waiting for pending navigations...
+[1580499212.729][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.750][INFO]: Waiting for pending navigations...
+[1580499212.752][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.752][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Joel Embiid"
+[1580499212.753][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "2a37cc70-ce34-4b2b-ad67-c7b183342fb1"
+}
+[1580499212.753][INFO]: Waiting for pending navigations...
+[1580499212.755][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.767][INFO]: Waiting for pending navigations...
+[1580499212.768][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.768][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Joel Embiid"
+[1580499212.770][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "454c49f9-cdc2-4a7a-b5bb-342d9895ac7f"
+}
+[1580499212.770][INFO]: Waiting for pending navigations...
+[1580499212.803][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.842][INFO]: Waiting for pending navigations...
+[1580499212.850][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.850][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Pascal Siakam"
+[1580499212.852][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "454c49f9-cdc2-4a7a-b5bb-342d9895ac7f"
+}
+[1580499212.852][INFO]: Waiting for pending navigations...
+[1580499212.861][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.874][INFO]: Waiting for pending navigations...
+[1580499212.875][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.875][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Pascal Siakam"
+[1580499212.879][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "88e49634-8f3e-4f8e-84b7-11703ae8789c"
+}
+[1580499212.879][INFO]: Waiting for pending navigations...
+[1580499212.880][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.903][INFO]: Waiting for pending navigations...
+[1580499212.904][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.904][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Kemba Walker"
+[1580499212.905][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "88e49634-8f3e-4f8e-84b7-11703ae8789c"
+}
+[1580499212.905][INFO]: Waiting for pending navigations...
+[1580499212.907][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.921][INFO]: Waiting for pending navigations...
+[1580499212.926][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.926][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Kemba Walker"
+[1580499212.928][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "8fd4cec3-27ab-4638-85df-a40720f1a8b1"
+}
+[1580499212.928][INFO]: Waiting for pending navigations...
+[1580499212.933][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.972][INFO]: Waiting for pending navigations...
+[1580499212.982][INFO]: Done waiting for pending navigations. Status: ok
+[1580499212.982][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Trae Young"
+[1580499212.991][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "8fd4cec3-27ab-4638-85df-a40720f1a8b1"
+}
+[1580499212.991][INFO]: Waiting for pending navigations...
+[1580499212.993][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.018][INFO]: Waiting for pending navigations...
+[1580499213.019][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.020][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Trae Young"
+[1580499213.021][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "8dd949bd-1fc3-482d-bfe8-6963f367b459"
+}
+[1580499213.021][INFO]: Waiting for pending navigations...
+[1580499213.023][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.049][INFO]: Waiting for pending navigations...
+[1580499213.056][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.056][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText ""
+[1580499213.058][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "8dd949bd-1fc3-482d-bfe8-6963f367b459"
+}
+[1580499213.058][INFO]: Waiting for pending navigations...
+[1580499213.062][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.078][INFO]: Waiting for pending navigations...
+[1580499213.079][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.079][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText ""
+[1580499213.081][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "aa1ad2fa-f6b1-46c6-a21d-7e9e14214e74"
+}
+[1580499213.081][INFO]: Waiting for pending navigations...
+[1580499213.087][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.112][INFO]: Waiting for pending navigations...
+[1580499213.113][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.113][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Player"
+[1580499213.115][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "5f9cebbe-fbea-41c1-b625-5ed9a777b887"
+}
+[1580499213.115][INFO]: Waiting for pending navigations...
+[1580499213.117][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.137][INFO]: Waiting for pending navigations...
+[1580499213.138][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.138][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Anthony Davis"
+[1580499213.140][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "5f9cebbe-fbea-41c1-b625-5ed9a777b887"
+}
+[1580499213.140][INFO]: Waiting for pending navigations...
+[1580499213.140][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.159][INFO]: Waiting for pending navigations...
+[1580499213.160][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.160][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Anthony Davis"
+[1580499213.161][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "28d70882-6781-40bf-a5b4-ee19180c82d7"
+}
+[1580499213.161][INFO]: Waiting for pending navigations...
+[1580499213.165][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.190][INFO]: Waiting for pending navigations...
+[1580499213.191][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.191][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Luka Dončić"
+[1580499213.193][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "28d70882-6781-40bf-a5b4-ee19180c82d7"
+}
+[1580499213.193][INFO]: Waiting for pending navigations...
+[1580499213.196][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.213][INFO]: Waiting for pending navigations...
+[1580499213.216][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.216][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Luka Dončić"
+[1580499213.220][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "ee4af295-2e95-45f9-a934-0a001a3b4e99"
+}
+[1580499213.221][INFO]: Waiting for pending navigations...
+[1580499213.222][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.245][INFO]: Waiting for pending navigations...
+[1580499213.250][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.250][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "James Harden"
+[1580499213.252][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "ee4af295-2e95-45f9-a934-0a001a3b4e99"
+}
+[1580499213.252][INFO]: Waiting for pending navigations...
+[1580499213.253][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.268][INFO]: Waiting for pending navigations...
+[1580499213.269][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.269][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "James Harden"
+[1580499213.270][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "1d2b4aa3-f9f9-495a-9da0-237ce1a0952b"
+}
+[1580499213.270][INFO]: Waiting for pending navigations...
+[1580499213.274][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.298][INFO]: Waiting for pending navigations...
+[1580499213.299][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.299][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "LeBron James"
+[1580499213.301][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "1d2b4aa3-f9f9-495a-9da0-237ce1a0952b"
+}
+[1580499213.301][INFO]: Waiting for pending navigations...
+[1580499213.304][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.316][INFO]: Waiting for pending navigations...
+[1580499213.319][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.319][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "LeBron James"
+[1580499213.321][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "9bdd0090-a785-439e-ba09-feda0b26a77b"
+}
+[1580499213.321][INFO]: Waiting for pending navigations...
+[1580499213.323][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.344][INFO]: Waiting for pending navigations...
+[1580499213.345][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.345][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Kawhi Leonard"
+[1580499213.347][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "9bdd0090-a785-439e-ba09-feda0b26a77b"
+}
+[1580499213.347][INFO]: Waiting for pending navigations...
+[1580499213.348][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.366][INFO]: Waiting for pending navigations...
+[1580499213.367][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.367][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText "Kawhi Leonard"
+[1580499213.369][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "4d07205f-9a7c-4f51-a52c-ff66e6a94b60"
+}
+[1580499213.369][INFO]: Waiting for pending navigations...
+[1580499213.370][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.389][INFO]: Waiting for pending navigations...
+[1580499213.393][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.393][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText ""
+[1580499213.395][INFO]: [778d44e5c03ce782db7c4937c750021d] COMMAND GetElementText {
+   "id": "4d07205f-9a7c-4f51-a52c-ff66e6a94b60"
+}
+[1580499213.395][INFO]: Waiting for pending navigations...
+[1580499213.399][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.413][INFO]: Waiting for pending navigations...
+[1580499213.426][INFO]: Done waiting for pending navigations. Status: ok
+[1580499213.426][INFO]: [778d44e5c03ce782db7c4937c750021d] RESPONSE GetElementText ""

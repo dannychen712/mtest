@@ -8,6 +8,7 @@ setup(
         "requests",
         "selenium",
         "pytest-selenium",
-        "pytest-html"
+        "pytest-html",
+        "pytest-expect"
     ]
 )

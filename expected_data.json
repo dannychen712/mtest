@@ -1,18 +1,28 @@
 {
-  "all_stars": {
-    "east": [
-      "Giannis Antetokounmpo",
-      "Joel Embiid",
-      "Pascal Siakam",
-      "Kemba Walker",
-      "Trae Young"
-    ],
-    "west": [
-      "Anthony Davis",
-      "Luka Doncic",
-      "James Harden",
-      "LeBron James",
-      "Kawhi Leonard"
-    ]
-  }
+  "all_stars": [
+    "Giannis Antetokounmpo",
+    "LeBron James",
+    "Anthony Davis",
+    "James Harden",
+    "Luka Doncic",
+    "Joel Embiid",
+    "Kawhi Leonard",
+    "Pascal Siakam",
+    "Kemba Walker",
+    "Trae Young",
+    "Bam Adebayo",
+    "Brandon Ingram",
+    "Chris Paul",
+    "Rudy Gobert",
+    "Damian Lillard",
+    "Donovan Mitchell",
+    "Nikola Jokic",
+    "Ben Simmons",
+    "Domantas Sabonis",
+    "Jayson Tatum",
+    "Jimmy Butler",
+    "Kyle Lowry",
+    "Khris Middleton",
+    "Russell Westbrook"
+  ]
 }
