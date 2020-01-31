@@ -48,6 +48,8 @@ Then I should see that it matches expected_data.json.
 2. Given I navigate to the NBA all star roster page for 2019-2020 on basketball-reference.com,
 When I observe the listed NBA all stars,
 Then I should see that it matches expected_data.json.
+THIS SHOULD FAIL AS OF 01/30 DUE TO BASKETBALL REFERENCE NOT UPDATING FOR NEW ALL STARS
+THIS IS WILL SHOW FAILURE AND HOW IT IS REPORTED
 
 3. Given I send a GET request to data.nba.net to the 2019-2020 nba all star roster endpoint,
 When I parse the json response,
