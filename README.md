@@ -15,6 +15,11 @@ Other pytest libraries exist for reporting including JSON and JUNITXML which can
 I will probably need to update the "expected_data.json" after I submit because the new NBA all star reserves will be
 announced on 1/30/2020 at 5:00PM MT, but such is the life of QA Automation :).
 
+UPDATE 2/9: Due to NBA.com updating the list to include the all star draft
+(Between team LeBron and team Giannis), the code has been updated to reflect this.
+Also basketball-reference.com has removed all their names until the game itself is played
+this will fail as expected.
+
 ## Structure
 
 page_objects:
