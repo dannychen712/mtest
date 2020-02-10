@@ -22,4 +22,6 @@ class NBADotCom:
             "nba-player-index__name")
 
         # have to replace newline with space, uses list comprehension
-        return [name.text.replace("\n", " ") for name in names_objects]
+        list_of_names = [name.text.replace("\n", " ") for name in names_objects]
+
+        return list_of_names[2:len(list_of_names) - 2]

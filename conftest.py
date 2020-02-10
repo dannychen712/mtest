@@ -20,6 +20,7 @@ def browser(selenium):
     While a new fixture isn't really needed, I like to do it to enable the
     workflow to accept a firefox options or chrome options when desired.
     """
+    selenium.maximize_window()
     return selenium
 
 
